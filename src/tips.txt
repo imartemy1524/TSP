@@ -1,0 +1,4 @@
+В дефолтном варианте моё решение работает лучше, чем networkx.
+Гугловская либа ortools в случае routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH, routing_enums_pb2.LocalSearchMetaheuristic.TABU_SEARCH
+находит то же лучшее решение, что и моя (за 10 секунд).
+
