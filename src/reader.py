@@ -1,8 +1,5 @@
-import pathlib
 
 import numpy as np
-
-from src.algorithms.ant_colony import AntColony
 
 
 # data2 - http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/atsp/

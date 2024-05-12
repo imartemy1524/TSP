@@ -4,9 +4,9 @@ import numpy
 import numpy as np
 from numba import njit, typed
 
-from src.algorithms._abs import AbsSolver
-from src.algorithms.utils import nearest_neighbour_solution
-from src.element import Element
+from .._abs import AbsSolver
+from ..utils import nearest_neighbour_solution
+from ...element import Element
 
 
 class Opt1Improver(AbsSolver):

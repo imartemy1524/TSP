@@ -23,3 +23,19 @@ The best results it gives, when passing as an input result of Ant colony Algorit
 - Compare with existing libraries, like `ortools` or `networkx` (already in progress) and branch and bound method.
 
 
+
+## How to run
+To run the test (tested only on linux) do the following:
+
+1. Create python venv:
+```bash
+python3 -m venv venv
+```
+2. Install the libriries:
+```bash
+pip install -r requirements.txt
+```
+3. Run the test:
+```bash
+python3 ./checker.py
+```

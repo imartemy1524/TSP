@@ -30,7 +30,7 @@ class MyTestCase(unittest.TestCase):
     @property
     def _each_file(self):
         for i in FILES:
-            data, solution = read_data(str(pathlib.Path(__file__).parent.parent / "datasets" / i))
+            data, solution = read_data(str(pathlib.Path(__file__).parent / "datasets" / i))
             yield data, solution, i
 
     def test_any_colony(self):

@@ -5,8 +5,8 @@ import numpy
 import numpy as np
 from numba import njit, prange
 
-from src.algorithms._abs import AbsSolver
-from src.element import Element
+from ._abs import AbsSolver
+from ..element import Element
 
 T = typing.TypeVar('T')
 

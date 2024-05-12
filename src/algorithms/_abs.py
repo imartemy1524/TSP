@@ -4,7 +4,7 @@ from typing import overload, TypeVar, Annotated, Literal
 import numpy as np
 import numpy.typing as npt
 
-from src.element import Element
+from ..element import Element
 
 DType = TypeVar("DType", bound=np.generic)
 
