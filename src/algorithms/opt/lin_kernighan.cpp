@@ -463,7 +463,6 @@ public:
         return false;
     }
 
-    // Add helper methods such as nearest_neighbour_solution, deepcopy, etc.
 };
 
 extern "C" {
